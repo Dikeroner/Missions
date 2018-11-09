@@ -2,18 +2,18 @@
   "name": "restapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^1.18.6"
-  },
-  "dependencies": {
-    "express": "^4.16.4",
-    "mongoose": "^5.3.10"
-  }
+  "license": "ISC"
 }

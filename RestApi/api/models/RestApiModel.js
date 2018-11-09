@@ -5,19 +5,19 @@ const Schema = mongoose.Schema;
 
 const UserSchema = new Schema({
   name: {
-    type: String,
-    required: 'Introduce nombre de usuario.'
+    type: String
   },
-  first_name: {
-      type: String,
-      required: 'Primer apellido.'
+  full_name: {
+      type: String
   },
-  last_name: {
-      type: String,
+  profession: {
+      type: String
+  },
+  image: {
+      type: String
   },
   email: {
-      type: String,
-      required: 'Introduce tu correo electronico.'
+      type: String
   }
 });
 
